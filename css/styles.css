@@ -1,0 +1,17 @@
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+
+.column {
+  width: 500px;
+  float: left;
+}
+
+img {
+  height: 15%;
+  width: 15%;
+  float:left;
+}
