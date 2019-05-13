@@ -1,19 +1,40 @@
+
 body {
   background-color: #FEFBF4;
 }
 
 h1 {
   text-align: center;
+  font-size: 52pt;
 }
 
 h2 {
   text-align: center;
 }
 
+h3 {
+  text-align: right;
+  font-size: 16pt;
+}
+
+.box {
+  margin: 12px;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+.panel-title {
+  font-size: 21pt;
+}
+
 .column {
   width: 450px;
   float: left;
   padding: 12px;
+  padding-top: 12px;
+  padding-bottom: 0px;
+  border: 2px solid black;
+  margin: 6px;
 }
 
 img {
@@ -21,4 +42,9 @@ img {
   width: 25%;
   float: right;
   padding: 2px;
+}
+
+.highlight {
+  text: bold;
+  background-color: lightblue;
 }
